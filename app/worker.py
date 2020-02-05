@@ -84,7 +84,7 @@ def _delpoy_project():
 
 
 def main():
-    #_delpoy_project()
+    _delpoy_project()
     q = RedisWQ(
         name=settings.WORKER_QUEUE_NAME,
         host=settings.REDIS_HOST,
